@@ -1,14 +1,24 @@
 package com.soporte.modelview;
 
+<<<<<<< HEAD
 public class user {
+=======
+public class User {
+>>>>>>> 0bf684c5f5bc68556674f55213b98071317385cf
     private int id_usuario;
     private String username;
     private String password;
 
     // Constructor with parameters
+<<<<<<< HEAD
     public user (int id_usuario, String username, String password) {
         this.id = id_usuario;
         this.name = username;
+=======
+    public User (int id_usuario, String username, String password) {
+        this.id_usuario = id_usuario;
+        this.username = username;
+>>>>>>> 0bf684c5f5bc68556674f55213b98071317385cf
         this.password = password;
     }
 

@@ -1,6 +1,10 @@
 package com.soporte.modelview;
 
+<<<<<<< HEAD
 public class client {
+=======
+public class Client {
+>>>>>>> 0bf684c5f5bc68556674f55213b98071317385cf
     private int id_cliente;
     private int id_solicitud;
     private String nombre;
