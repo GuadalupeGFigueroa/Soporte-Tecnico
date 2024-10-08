@@ -1,12 +1,12 @@
 package com.soporte.modelview;
 
-public class technician {
+public class Technician {
     private int id;
     private String name;
     private String password;
 
     // Constructor with parameters
-    public technician (int id, String name, String password) {
+    public Technician (int id, String name, String password) {
         this.id = id;
         this.name = name;
         this.password = password;

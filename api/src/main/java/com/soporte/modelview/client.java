@@ -1,8 +1,8 @@
 package com.soporte.modelview;
 
-public class client {
+public class Client {
     private int id_cliente;
-    private int solicitud;
+    private int id_solicitud;
     private String nombre;
     private String apellido;
 
