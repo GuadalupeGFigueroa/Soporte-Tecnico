@@ -14,7 +14,7 @@ public class Client {
         this.apellido = apellido;
     }
 
-    // Getters and Setters
+    // Getters and Setters constructor
     public int getId_cliente() {
         return id_cliente;
     }
