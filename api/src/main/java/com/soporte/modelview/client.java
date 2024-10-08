@@ -7,7 +7,7 @@ public class Client {
     private String apellido;
 
     // Constructor with parameters
-    public EmployedUser (int id_cliente, int id_solicitud, String nombre, String apellido) {
+    public Client (int id_cliente, int id_solicitud, String nombre, String apellido) {
         this.id_cliente = id_cliente;
         this.id_solicitud = id_solicitud;
         this.nombre = nombre;
@@ -49,7 +49,7 @@ public class Client {
     @Override
     public String toString() {
         return "Person{" +
-                "id=" + id_cliente +
+                "id_cliente=" + id_cliente +
                 "id_solicitud=" + id_solicitud +
                 ", name='" + nombre + '\'' +
                 ", password=" + apellido +
