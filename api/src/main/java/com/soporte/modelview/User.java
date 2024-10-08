@@ -1,32 +1,32 @@
 package com.soporte.modelview;
 
 public class User {
-    private int id;
-    private String name;
+    private int id_usuario;
+    private String username;
     private String password;
 
     // Constructor with parameters
-    public User (int id, String name, String password) {
-        this.id = id;
-        this.name = name;
+    public User (int id_usuario, String username, String password) {
+        this.id = id_usuario;
+        this.name = username;
         this.password = password;
     }
 
     // Getters and Setters
-    public int getId() {
-        return id;
+    public int getId_usuario() {
+        return id_usuario;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId_usuario(int id_usuario) {
+        this.id_usuario= id_usuario;
     }
 
-    public String getName() {
-        return name;
+    public String getUserame() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -40,8 +40,8 @@ public class User {
     @Override
     public String toString() {
         return "Person{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "id=" + id_usuario +
+                ", name='" + username + '\'' +
                 ", password=" + password +
                 '}';
     }
