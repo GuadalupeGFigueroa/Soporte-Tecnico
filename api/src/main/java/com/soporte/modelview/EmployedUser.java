@@ -1,49 +1,58 @@
 package com.soporte.modelview;
 
 public class EmployedUser {
-    private int id;
-    private String name;
-    private String password;
+    private int id_cliente;
+    private int solicitud;
+    private String nombre;
+    private String apellido;
 
     // Constructor with parameters
-    public EmployedUser (int id, String name, String password) {
-        this.id = id;
-        this.name = name;
-        this.password = password;
+    public EmployedUser (int id_cliente, int id_solicitud, String nombre, String apellido) {
+        this.id_cliente = id_cliente;
+        this.id_solicitud = id_solicitud;
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
     // Getters and Setters
-    public int getId() {
-        return id;
+    public int getId_cliente() {
+        return id_cliente;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId_cliente(int id_cliente) {
+        this.id_cliente = id_cliente;
+    }
+    public int getId_solicitud() {
+        return id_solicitud;
     }
 
-    public String getName() {
-        return name;
+    public void setId_solicitud(int id_solicitud) {
+        this.id_solicitud = id_solicitud;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getNombre() {
+        return nombre;
     }
 
-    public String getPassword() {
-        return password;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 
     @Override
     public String toString() {
         return "Person{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", password=" + password +
+                "id=" + id_cliente +
+                "id_solicitud=" + id_solicitud +
+                ", name='" + nombre + '\'' +
+                ", password=" + apellido +
                 '}';
     }
-}
 }
