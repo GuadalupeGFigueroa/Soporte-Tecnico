@@ -1,6 +1,6 @@
 package com.soporte.modelview;
 
-public class Request {
+public class request {
     private int id;
     private String name;
     private String password;

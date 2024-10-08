@@ -1,6 +1,6 @@
 package com.soporte.modelview;
 
-public class EmployedUser {
+public class client {
     private int id_cliente;
     private int solicitud;
     private String nombre;
